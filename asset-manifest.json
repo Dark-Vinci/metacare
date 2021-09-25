@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/metacare/static/css/main.afaca43c.chunk.css",
+    "main.js": "/metacare/static/js/main.2b7fecf5.chunk.js",
+    "main.js.map": "/metacare/static/js/main.2b7fecf5.chunk.js.map",
+    "runtime-main.js": "/metacare/static/js/runtime-main.a46f6d92.js",
+    "runtime-main.js.map": "/metacare/static/js/runtime-main.a46f6d92.js.map",
+    "static/css/2.169397c9.chunk.css": "/metacare/static/css/2.169397c9.chunk.css",
+    "static/js/2.4d554b89.chunk.js": "/metacare/static/js/2.4d554b89.chunk.js",
+    "static/js/2.4d554b89.chunk.js.map": "/metacare/static/js/2.4d554b89.chunk.js.map",
+    "static/js/3.b2d0df5f.chunk.js": "/metacare/static/js/3.b2d0df5f.chunk.js",
+    "static/js/3.b2d0df5f.chunk.js.map": "/metacare/static/js/3.b2d0df5f.chunk.js.map",
+    "index.html": "/metacare/index.html",
+    "static/css/2.169397c9.chunk.css.map": "/metacare/static/css/2.169397c9.chunk.css.map",
+    "static/css/main.afaca43c.chunk.css.map": "/metacare/static/css/main.afaca43c.chunk.css.map",
+    "static/js/2.4d554b89.chunk.js.LICENSE.txt": "/metacare/static/js/2.4d554b89.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/metacare/static/media/Quicksand-Light.d9866972.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a46f6d92.js",
+    "static/css/2.169397c9.chunk.css",
+    "static/js/2.4d554b89.chunk.js",
+    "static/css/main.afaca43c.chunk.css",
+    "static/js/main.2b7fecf5.chunk.js"
+  ]
+}
