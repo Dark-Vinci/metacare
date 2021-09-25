@@ -122,17 +122,3 @@ export function totalCharacterHeightInCentiMeter (stateCharacter) {
 
     return heightSum;
 }
-
-// function for animating the opening_crawl;
-export function textAnimator (text) {
-    // let output = '';
-
-    for (let i = 0; i < text.length; i++) {
-        setTimeout(() => {
-            let output = '';
-            output += `${ text[i] }`;
-
-            return output
-        }, 100 * i)
-    }
-}

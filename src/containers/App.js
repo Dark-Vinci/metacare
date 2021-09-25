@@ -82,7 +82,7 @@ function App() {
               initial={{ y: '200vh' }}
               transition={{ type: 'spring', stiffness: 120 }}
             >STAR WARS</motion.h3>
-            { toDisplay }
+              { toDisplay }
             <motion.div 
               className='footer'
               animate={{ y: 0 }}
@@ -95,7 +95,6 @@ function App() {
         </Route>
 
         <Route path='/movie/:id'>
-          <h4>List of available movies</h4>
           <SingleMovie />
         </Route>
 

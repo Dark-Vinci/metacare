@@ -77,7 +77,7 @@ function SingleMovie () {
     // fetch the data when the component mounts
     useEffect(() => {
         fetchMovieData(`https://swapi.dev/api/films/${ id }`);
-    }, []);
+    }, [id]);
 
     let toDisplay = null;
 

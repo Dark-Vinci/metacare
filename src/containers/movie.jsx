@@ -1,10 +1,9 @@
-import { useReducer, useState, useRef } from 'react';
+import { useReducer, useState } from 'react';
 import { motion } from 'framer-motion';
-import { FloatingLettersTextBuilder } from 'react-animated-text-builders';
 
 import { 
     compareHeightDescending, compareHeightAscending, 
-    compareNameDescending, compareName, icon, textAnimator,
+    compareNameDescending, compareName, icon,
     sortGender, meterToFeet, totalCharacterHeightInCentiMeter
 } from '../utils/compareName';
 
@@ -14,10 +13,6 @@ function Movie ({ data }) {
         characters, title, opening_crawl,
         director, producer, release_date
     } = data;
-
-    // const pRef = useRef('');
-
-    // textAnimator(opening_crawl, pRef)
 
     // state for knowing if the sorting should be ascending/descending....
     // ... and in the case of gender, [male, female]
